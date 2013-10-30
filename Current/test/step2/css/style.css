@@ -1,0 +1,88 @@
+#image{
+	width:auto;
+	height: auto;
+	position: absolute;
+	top:10%;
+	left:0%;
+	user-select: none;
+	border: 2px dashed purple;
+	padding: 0px;
+	margin: 0px;
+}
+
+#image img{
+	height: auto;
+	width: auto;
+}
+
+#overlay{
+	position: absolute;
+	top:0%;
+	left:0%;
+	height:500px;
+	width: 667px;
+	user-select: none;
+
+}
+
+polygon{
+	fill: black;
+	fill-opacity: 0%;
+}
+
+polygon:hover{
+	fill-opacity: 20%;
+}
+
+rect{
+	fill: black;
+	fill-opacity: 0%;
+}
+
+rect:hover{
+	fill-opacity: 20%;
+}
+
+#spin-left{
+	position:fixed;
+	font-family: Helvetica;
+	color: purple;
+	z-index:1;
+	top:85%;
+	left:90%;
+	font-size:24px;
+	text-decoration: none;
+}
+
+#spin-right{
+	position:fixed;
+	font-family: Helvetica;
+	color: purple;
+	z-index:1;
+	top:90%;
+	left:90%;
+	font-size:24px;
+	text-decoration: none;
+}
+
+#zoom-in{
+	position:fixed;
+	font-family: Helvetica;
+	color: purple;
+	z-index:1;
+	top:10%;
+	left:90%;
+	font-size:24px;
+	text-decoration: none;
+}
+
+#zoom-out{
+	position:fixed;
+	font-family: Helvetica;
+	color: purple;
+	z-index:1;
+	top:15%;
+	left:90%;
+	font-size:24px;
+	text-decoration: none;
+}
